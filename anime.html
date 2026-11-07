@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f0f0f">
+  <link rel="icon" href="favicon.png">
+  <title>Vynime</title>
+  <link rel="stylesheet" href="anime.css">
+  <script src="anime.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-button menu-button" id="menuToggle" type="button" aria-label="Buka menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <a class="brand" href="anime.html" aria-label="Kembali ke beranda">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"></svg>
+      <span class="brand-name">Vynime <small>ID</small></span>
+    </a>
+    <form class="search" id="searchForm" role="search">
+      <label class="sr-only" for="searchInput">Cari video</label>
+      <input id="searchInput" type="search" placeholder="Telusuri" autocomplete="off">
+      <button type="submit" aria-label="Cari">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+      </button>
+    </form>
+  </header>
+
+  <aside class="sidebar" id="sidebar" aria-label="Menu utama">
+    <a class="side-link" href="anime.html"><span class="side-icon">⌂</span>Beranda</a>
+    <a class="side-link selected" href="anime.html"><span class="side-icon">▶</span>Anime</a>
+    <a class="side-link" href="anime.html"><span class="side-icon">▣</span>Feed video</a>
+    <hr>
+    <p class="side-heading">Koleksi</p>
+    <a class="side-link" href="#videoGrid"><span class="side-icon">◷</span>Video anime</a>
+    <div class="sidebar-note">Devlop by Vicar.</div>
+  </aside>
+
+  <main class="main-content">
+    <section id="galleryView">
+      <nav class="chips" aria-label="Kategori video">
+        <button class="chip" type="button" data-category="Anime">Anime</button>
+        <button class="chip" type="button" data-category="Film">Film</button>
+      </nav>
+      <section class="video-grid" id="videoGrid" aria-label="Pilihan video anime" aria-live="polite"></section>
+      <p class="empty-state" id="emptyState" hidden>Belum ada video anime.</p>
+    </section>
+    <section class="watch-layout" id="watchView" hidden aria-label="Pemutar video">
+      <div class="watch-main">
+        <button class="back-button" id="backToGallery" type="button">← Semua video</button>
+        <video id="watchVideo" muted controls playsinline preload="none"></video>
+        <h1 id="watchTitle"></h1>
+        <p id="watchMeta"></p>
+      </div>
+      <aside class="watch-next">
+        <h2>Video selanjutnya</h2>
+        <section class="next-video-list" id="nextVideoList" aria-label="Video selanjutnya">
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <dialog class="player-dialog" id="playerDialog" aria-label="Pemutar video">
+    <div class="player-shell">
+      <button class="player-close" id="playerClose" type="button" aria-label="Tutup video">×</button>
+      <video id="playerVideo" controls playsinline preload="none"></video>
+      <h2 id="playerTitle"></h2>
+    </div>
+  </dialog>
+</body>
+</html>
