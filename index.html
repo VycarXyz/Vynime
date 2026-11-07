@@ -6,15 +6,15 @@
   <meta name="theme-color" content="#0f0f0f">
   <link rel="icon" href="favicon.png">
   <title>Vynime</title>
-  <link rel="stylesheet" href="anime.css">
-  <script src="anime.js" defer></script>
+  <link rel="stylesheet" href="anime.css?v=4">
+  <script src="anime.js?v=4" defer></script>
 </head>
 <body>
   <header class="topbar">
     <button class="icon-button menu-button" id="menuToggle" type="button" aria-label="Buka menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
     </button>
-    <a class="brand" href="index.html " aria-label="Kembali ke beranda">
+    <a class="brand" href="index.html" aria-label="Kembali ke beranda">
       <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"></svg>
       <span class="brand-name">Vynime</small></span>
     </a>
@@ -33,23 +33,29 @@
     <a class="side-link" href="index.html"><span class="side-icon">▣</span>Feed video</a>
     <hr>
     <p class="side-heading">Koleksi</p>
-    <a class="side-link" href="#videoGrid"><span class="side-icon">◷</span>Video anime</a>
+    <a class="side-link" id="watchedLink" href="#videoGrid"><span class="side-icon">◷</span>telah ditonton</a>
     <div class="sidebar-note">Devlop by Vicar</div>
   </aside>
 
   <main class="main-content">
     <section id="galleryView">
-      <nav class="chips" aria-label="Kategori video">
-        <button class="chip" type="button" data-category="Anime">Anime</button>
+      <nav class="chips" id="categoryNav" aria-label="Kategori video">
+        <button class="chip active" type="button" data-category="Anime">Anime</button>
         <button class="chip" type="button" data-category="Film">Film</button>
       </nav>
-      <section class="video-grid" id="videoGrid" aria-label="Pilihan video anime" aria-live="polite"></section>
+      <section class="video-grid" id="videoGrid" aria-label="Pilihan video anime" aria-live="polite">
+        <script>
+          const videoGrid = document.getElementById("videoGrid");
+          const skeletonCard = '<article class="skeleton-card" aria-hidden="true"><div class="skeleton-thumb"></div><div class="skeleton-info"><span class="skeleton-avatar"></span><div class="skeleton-copy"><span class="skeleton-line"></span><span class="skeleton-line short"></span></div></div></article>';
+          videoGrid.innerHTML = Array.from({ length: 13 }, () => skeletonCard).join("");
+        </script>
+      </section>
       <p class="empty-state" id="emptyState" hidden>Belum ada video anime.</p>
     </section>
     <section class="watch-layout" id="watchView" hidden aria-label="Pemutar video">
       <div class="watch-main">
-        <button class="back-button" id="backToGallery" type="button">← Semua video</button>
-        <video id="watchVideo" muted controls playsinline preload="none"></video>
+        <button class="back-button" id="backToGallery" type="button">← Kembali</button>
+        <video id="watchVideo" muted controls loading="lazy" playsinline preload="none"></video>
         <h1 id="watchTitle"></h1>
         <p id="watchMeta"></p>
       </div>

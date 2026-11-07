@@ -296,6 +296,10 @@ input:focus-visible,
   scrollbar-width: none;
 }
 
+.chips[hidden] {
+  display: none;
+}
+
 .chips::-webkit-scrollbar {
   display: none;
 }
@@ -331,6 +335,74 @@ input:focus-visible,
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 16px;
+}
+
+.skeleton-thumb,
+.skeleton-avatar,
+.skeleton-line {
+  position: relative;
+  overflow: hidden;
+  background: #242424;
+}
+
+.skeleton-thumb {
+  aspect-ratio: 9 / 16;
+  border-radius: 14px;
+}
+
+.skeleton-info {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: 11px;
+  padding-top: 12px;
+}
+
+.skeleton-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.skeleton-copy {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  padding-top: 3px;
+}
+
+.skeleton-line {
+  width: 90%;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.skeleton-line.short {
+  width: 56%;
+  height: 10px;
+}
+
+.skeleton-thumb::after,
+.skeleton-avatar::after,
+.skeleton-line::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 20%, rgba(255, 255, 255, 0.1) 48%, transparent 76%);
+  content: "";
+  transform: translateX(-100%);
+  animation: skeleton-shimmer 1.25s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  to { transform: translateX(100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-thumb::after,
+  .skeleton-avatar::after,
+  .skeleton-line::after {
+    animation: none;
+    transform: none;
+  }
 }
 
 .video-card {
@@ -380,6 +452,30 @@ input:focus-visible,
   height: 100%;
   object-fit: cover;
   transition: transform 240ms ease, filter 240ms ease;
+}
+
+.watched-remove {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  background: #d62828;
+  color: #fff;
+  font-size: 23px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.watched-remove:hover {
+  background: #f03a3a;
 }
 
 .video-card:hover .thumbnail-wrap img {
