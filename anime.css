@@ -153,6 +153,7 @@ input:focus-visible,
   width: min(640px, 52vw);
   height: 42px;
   margin: 0 auto;
+  transform: translateX(-24px);
 }
 
 .search input {
@@ -603,10 +604,13 @@ input:focus-visible,
 }
 
 .watch-main {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
 }
 
 .watch-main video {
+  order: 2;
   display: block;
   width: 100%;
   max-height: 76vh;
@@ -617,19 +621,133 @@ input:focus-visible,
   object-fit: contain;
 }
 
+.saweria-card {
+  order: 5;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 158, 97, 0.24);
+  border-radius: 14px;
+  background: radial-gradient(ellipse at 100% 0%, rgba(255, 130, 77, 0.13), transparent 48%), #191716;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
+}
+
+.saweria-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 158, 97, 0.55);
+  background-color: #201a17;
+}
+
+.saweria-card:focus-visible {
+  outline: 2px solid #ff9e61;
+  outline-offset: 3px;
+}
+
+.saweria-photo-wrap {
+  display: grid;
+  width: 76px;
+  height: 76px;
+  flex: 0 0 76px;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 11px;
+  background: linear-gradient(145deg, #443027, #211b19);
+}
+
+.saweria-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.saweria-copy {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.saweria-eyebrow {
+  color: #ffb17f;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.saweria-copy strong {
+  font-size: 15px;
+}
+
+.saweria-description {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.saweria-cta {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 7px;
+  margin-left: auto;
+  padding: 10px 14px;
+  border-radius: 9px;
+  background: #ff8f50;
+  color: #24150e;
+  font-size: 13px;
+  font-weight: 750;
+}
+
+@media (max-width: 520px) {
+  .saweria-card {
+    gap: 11px;
+    padding: 11px;
+  }
+
+  .saweria-photo-wrap {
+    width: 58px;
+    height: 58px;
+    flex-basis: 58px;
+  }
+
+  .saweria-copy strong {
+    font-size: 13px;
+  }
+
+  .saweria-description {
+    font-size: 11px;
+  }
+
+  .saweria-cta {
+    gap: 4px;
+    padding: 8px 9px;
+    font-size: 12px;
+  }
+}
+
 .watch-main h1 {
+  order: 3;
   margin: 16px 0 8px;
   font-size: 20px;
   line-height: 1.4;
 }
 
 .watch-main p {
+  order: 4;
   margin: 0;
   color: var(--muted);
   font-size: 14px;
 }
 
 .back-button {
+  order: 1;
+  align-self: flex-start;
   margin: 0 0 14px;
   padding: 9px 14px;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -857,6 +975,7 @@ input:focus-visible,
     width: auto;
     flex: 1;
     margin-left: auto;
+    transform: translateX(-8px);
   }
 
   .search input {

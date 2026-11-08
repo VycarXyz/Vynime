@@ -3,7 +3,7 @@ const animeVideos = [
     title: "Kanchigai no Atelier Meister",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/Kanchigai no Atelier Meister.jpg",
+    poster: "poster/Kanchigai-no-Atelier-Meister.webp",
 
     episodes: [
       {
@@ -79,7 +79,7 @@ const animeVideos = [
     title: "Mikadono Sanshimai wa Angai, Choroi",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/mikadono.jpg",
+    poster: "poster/mikadono.webp",
 
     episodes: [
       {
@@ -155,7 +155,7 @@ const animeVideos = [
     title: "Kenja no Mago",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/kenja no mago.jpg",
+    poster: "poster/kenja-no-mago.webp",
 
     episodes: [
       {
@@ -231,7 +231,7 @@ const animeVideos = [
     title: "Tsue to Tsurugi no Wistoria s1",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/wistoria s1.jpg",
+    poster: "poster/wistoria-s1.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime4/episode-01.jpg", source: "https://s3.animeverse.id/mp4/series_149151/1080p/ep_71284/_Zen-Kuso_%20Tsue%20to%20Tsurugi%20no%20Wistoria%20-%2001%20_1080p_.mp4" },
@@ -255,7 +255,7 @@ const animeVideos = [
     title: "Tsue to Tsurugi no Wistoria s2",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/wistoria s2.jpg",
+    poster: "poster/wistoria-s2.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime5/episode-01.jpg", source: "https://s3.animeverse.id/ro/e959-1775989221230.mp4" },
@@ -279,7 +279,7 @@ const animeVideos = [
     title: "Alya Sometimes Hides Her Feelings in Russian",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/alya roshidere.jpg",
+    poster: "poster/alya-roshidere.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime6/episode-01.jpg", source: "https://s3.animeverse.id/ngentot/2YAGV77F.mp4" },
@@ -301,7 +301,7 @@ const animeVideos = [
     title: "Kimetsu no Yaiba: Infinity Castel Movie",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/kny infinity castle.jpg",
+    poster: "poster/kny-infinity-castle.webp",
 
     episodes: [
       { title: "Episode 1(end)", poster: "poster/anime7/episode-01.jpg", source: "https://s3.animeverse.id/ro/c5d3-1768082833559.mp4" },
@@ -313,7 +313,7 @@ const animeVideos = [
     title: "Kimetsu no Yaiba: Infinity Castel Movie",
     channel: "Anime",
     category: "Film",
-    poster: "poster/kny infinity castle.jpg",
+    poster: "poster/kny-infinity-castle.webp",
 
     episodes: [
       { title: "Episode 1(end)", poster: "poster/anime7/episode-01.jpg", source: "https://s3.animeverse.id/ro/c5d3-1768082833559.mp4" },
@@ -325,7 +325,7 @@ const animeVideos = [
     title: "Bocchi The Rock",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/bocchi the rock.png",
+    poster: "poster/bocchi-the-rock.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime8/episode-01.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers.net_BtR--01_720p.mp4" },
@@ -349,7 +349,7 @@ const animeVideos = [
     title: "Saikyou Onmyouji no Isekai Tenseiki",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/saikyou.jpg",
+    poster: "poster/saikyou.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime9/episode-01.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers.net_SOIT--01_720p.mp4" },
@@ -373,7 +373,7 @@ const animeVideos = [
     title: "Hitoribocchi no Isekai Kouryaku",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/hitori bocchi.png",
+    poster: "poster/hitori-bocchi.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime10/episode-01.jpg", source: "https://s3.animeverse.id/mp4/series_149182/1080p/ep_72268/_Kusonime_%20Hitoribocchi%20no%20Isekai%20Kouryaku%20-%2001%20_1080p_.mp4" },
@@ -397,7 +397,7 @@ const animeVideos = [
     title: "Yuusha Party wo Tsuihou sareta Beast Tamer",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/yuusha party.jpg",
+    poster: "poster/yuusha-party.webp",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime11/episode-01.jpg", source: "https://s3.animeverse.id/ngentot/9dwQQmWN.mp4" },
@@ -418,56 +418,79 @@ const animeVideos = [
 
 
   {
-    title: "",
+    title: "Rokudenashi Majutsu Koushi to Akashic Records",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/anime12.jpg",
+    poster: "poster/akashic-record.webp",
 
     episodes: [
-      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
-      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
-      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
-      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
-      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
-      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
-      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
-      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
-      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
-      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
-      { title: "Episode 12", poster: "poster/anime12/episode-12.jpg", source: "" },
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--01_720p.mp4" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--02_720p.mp4" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--03_720p.mp4" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--04_720p.mp4" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--05_720p.mp4" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--06_720p.mp4" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--07_720p.mp4" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--08_720p.mp4" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--09_720p.mp4" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--10_720p.mp4" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--11_720p.mp4" },
+      { title: "Episode 12", poster: "poster/anime12/episode-12.jpg", source: "https://s3.animeverse.id/ngentot/AnimeLovers_RokuAka--12_End_720p.mp4" },
       { title: "Episode 13", poster: "poster/anime12/episode-13.jpg", source: "" }
     ]
   },
 
 
   {
-    title: "",
+    title: "Kaoru Hana wa Rin to Saku",
     channel: "Anime",
     category: "Anime",
-    poster: "poster/anime13.jpg",
+    poster: "poster/waguri.webp",
 
     episodes: [
-      { title: "Episode 1", poster: "poster/anime13/episode-01.jpg", source: "" },
-      { title: "Episode 2", poster: "poster/anime13/episode-02.jpg", source: "" },
-      { title: "Episode 3", poster: "poster/anime13/episode-03.jpg", source: "" },
-      { title: "Episode 4", poster: "poster/anime13/episode-04.jpg", source: "" },
-      { title: "Episode 5", poster: "poster/anime13/episode-05.jpg", source: "" },
-      { title: "Episode 6", poster: "poster/anime13/episode-06.jpg", source: "" },
-      { title: "Episode 7", poster: "poster/anime13/episode-07.jpg", source: "" },
-      { title: "Episode 8", poster: "poster/anime13/episode-08.jpg", source: "" },
-      { title: "Episode 9", poster: "poster/anime13/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime13/episode-10.jpg", source: "" },
-      { title: "Episode 11", poster: "poster/anime13/episode-11.jpg", source: "" },
-      { title: "Episode 12", poster: "poster/anime13/episode-12.jpg", source: "" },
+      { title: "Episode 1", poster: "poster/anime13/episode-01.jpg", source: "https://s3.animeverse.id/ro/ebaa-1752461184471.mp4" },
+      { title: "Episode 2", poster: "poster/anime13/episode-02.jpg", source: "https://s3.animeverse.id/ro/ba2a-1752453209475.mp4" },
+      { title: "Episode 3", poster: "poster/anime13/episode-03.jpg", source: "https://s3.animeverse.id/ro/3225-1752953772000.mp4" },
+      { title: "Episode 4", poster: "poster/anime13/episode-04.jpg", source: "https://s3.animeverse.id/ro/18c0-1753590555242.mp4" },
+      { title: "Episode 5", poster: "poster/anime13/episode-05.jpg", source: "https://s3.animeverse.id/ro/2824-1754160606468.mp4" },
+      { title: "Episode 6", poster: "poster/anime13/episode-06.jpg", source: "https://s3.animeverse.id/ro/eeb6-1754766918523.mp4" },
+      { title: "Episode 7", poster: "poster/anime13/episode-07.jpg", source: "https://s3.animeverse.id/ro/bd5a-1755369082713.mp4" },
+      { title: "Episode 8", poster: "poster/anime13/episode-08.jpg", source: "https://s3.animeverse.id/ro/a69e-1755976387633.mp4" },
+      { title: "Episode 9", poster: "poster/anime13/episode-09.jpg", source: "https://s3.animeverse.id/ro/510e-1756580732362.mp4" },
+      { title: "Episode 10", poster: "poster/anime13/episode-10.jpg", source: "https://s3.animeverse.id/ro/564b-1757184800834.mp4" },
+      { title: "Episode 11", poster: "poster/anime13/episode-11.jpg", source: "https://s3.animeverse.id/ro/059b-1757790133585.mp4" },
+      { title: "Episode 12", poster: "poster/anime13/episode-12.jpg", source: "https://s3.animeverse.id/ro/5cdf-1758395226497.mp4" },
       { title: "Episode 13", poster: "poster/anime13/episode-13.jpg", source: "" }
     ]
   },
 
     {
-    title: "",
+    title: "I Made Friends with the Second Prettiest Girl in My Class",
     channel: "Anime",
     category: "Anime",
+    poster: "poster/umi-asanagi.webp",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-149791-247b05c15845dc23.mp4" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-151090-e0237e09946fb9db.mp4" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-151981-6508766755c0801b.mp4" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-152159-b2605fa39fd69116.mp4" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-152391-379d90a08afda8ec.mp4" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "https://s3.animeverse.id/ro/02b1-1778605202405.mp4" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-152702-0547c9ddd294ac9e.mp4" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "https://s3.animeverse.id/ro/499b-1779818018517.mp4" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "https://s3.animeverse.id/ro/59a8-1780417532773.mp4" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "https://s3.animeverse.id/ro/bc9d-1781043263529.mp4" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "https://s3.animeverse.id/ro/a7b8-1781770922821.mp4" },
+      { title: "Episode 12", poster: "poster/anime12/episode-12.jpg", source: "https://s3.animeverse.id/ro/2811-1782273291244.mp4" },
+      { title: "Episode 13", poster: "poster/anime12/episode-13.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
     poster: "poster/anime14.jpg",
 
     episodes: [
@@ -480,13 +503,213 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
-      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
-      { title: "Episode 12", poster: "poster/anime12/episode-12.jpg", source: "" },
-      { title: "Episode 13", poster: "poster/anime12/episode-13.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+      {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+    ]
+  },
+
+        {
+    title: "",
+    channel: "Anime",
+    category: "Film",
+    poster: "poster/anime14.jpg",
+
+    episodes: [
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
     ]
   },
 ];
+
+
+
 
 
 const galleryView = document.getElementById("galleryView");
@@ -675,7 +898,7 @@ const renderGallery = () => {
     const searchMatch = `${anime.title} ${anime.channel}`.toLocaleLowerCase("id").includes(query);
     return categoryMatch && watchedMatch && searchMatch;
   });
-  const visibleVideos = viewingWatched || query ? filtered : filtered.slice(0, 13);
+  const visibleVideos = viewingWatched || query ? filtered : filtered.slice(0, 14);
   grid.replaceChildren(...visibleVideos.map((anime) => createCard(anime)));
   emptyState.textContent = viewingWatched
     ? (visibleVideos.length ? "" : "Belum ada video yang ditonton.")
