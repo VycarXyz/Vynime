@@ -1,5 +1,3 @@
-# Vynime — catatan serah terima
-
 Vynime adalah situs katalog dan pemutar video Anime/Film statis. Proyek ini memakai HTML, CSS, dan JavaScript biasa; tidak ada framework, paket npm, maupun proses build.
 
 ## Mulai
