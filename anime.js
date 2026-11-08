@@ -507,6 +507,7 @@ const animeSideLink = document.querySelector(".side-link.selected");
 let activeCategory = "Anime";
 let viewingWatched = false;
 let currentAnime = null;
+let currentEpisode = null;
 const watchedStorageKey = "vynime-watched-videos";
 const getWatchedKey = (anime) => `${anime.category}::${anime.title.trim().toLocaleLowerCase("id")}::${anime.poster}`;
 const getLegacyWatchedKey = (anime) => `${anime.title.trim().toLocaleLowerCase("id")}::${anime.poster}`;
@@ -558,6 +559,9 @@ const renderEpisodes = (anime) => {
     item.className = "next-video-item";
     item.type = "button";
     item.setAttribute("aria-label", `Putar ${anime.title} ${episode.title}`);
+    const isCurrentEpisode = episode === currentEpisode;
+    item.classList.toggle("is-current", isCurrentEpisode);
+    if (isCurrentEpisode) item.setAttribute("aria-current", "true");
 
     const image = document.createElement("img");
     image.className = "next-video-preview";
@@ -573,6 +577,7 @@ const renderEpisodes = (anime) => {
 
 const showVideo = (episode, anime) => {
   currentAnime = anime;
+  currentEpisode = episode;
   galleryView.hidden = true;
   watchView.hidden = false;
   watchTitle.textContent = `${anime.title} — ${episode.title}`;
@@ -663,7 +668,7 @@ const createCard = (anime) => {
 };
 
 const renderGallery = () => {
-  const query = searchInput.value.trim().toLocaleLowerCase("id");
+  const query = searchInput.value.slice(0, 200).trim().toLocaleLowerCase("id");
   const filtered = readyVideos().filter((anime) => {
     const categoryMatch = viewingWatched || activeCategory === "Semua" || anime.category === activeCategory;
     const watchedMatch = !viewingWatched || watchedVideos.has(getWatchedKey(anime));
