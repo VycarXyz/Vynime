@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Vynime — Katalog Anime dan Film">
   <meta name="twitter:description" content="Jelajahi katalog anime dan film Vynime. Temukan judul favorit dan pilih episode untuk ditonton.">
-
+  <link rel="manifest" href="manifest.json">
   <link rel="icon" href="favicon.png">
   <link rel="canonical" href="https://vynime.pages.dev/">
 
@@ -54,7 +54,6 @@
       </button>
     </form>
   </header>
-
   <aside class="sidebar" id="sidebar" aria-label="Menu utama">
     <a class="side-link" href="index.html"><span class="side-icon">⌂</span>Beranda</a>
     <a class="side-link selected" href="index.html"><span class="side-icon">▶</span>Anime</a>
@@ -72,11 +71,6 @@
         <button class="chip" type="button" data-category="Film">Film</button>
       </nav>
       <section class="video-grid" id="videoGrid" aria-label="Pilihan video anime" aria-live="polite">
-        <script>
-          const videoGrid = document.getElementById("videoGrid");
-          const skeletonCard = '<article class="skeleton-card" aria-hidden="true"><div class="skeleton-thumb"></div><div class="skeleton-info"><span class="skeleton-avatar"></span><div class="skeleton-copy"><span class="skeleton-line"></span><span class="skeleton-line short"></span></div></div></article>';
-          videoGrid.innerHTML = Array.from({ length: 13 }, () => skeletonCard).join("");
-        </script>
       </section>
       <p class="empty-state" id="emptyState" hidden>Belum ada video anime.</p>
     </section>

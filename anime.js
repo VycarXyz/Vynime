@@ -309,16 +309,7 @@ const animeVideos = [
   },
 
 
-  {
-    title: "Kimetsu no Yaiba: Infinity Castel Movie",
-    channel: "Anime",
-    category: "Film",
-    poster: "poster/kny-infinity-castle.webp",
 
-    episodes: [
-      { title: "Episode 1(end)", poster: "poster/anime7/episode-01.jpg", source: "https://s3.animeverse.id/ro/c5d3-1768082833559.mp4" },
-    ]
-  },
 
 
   {
@@ -487,31 +478,33 @@ const animeVideos = [
     ]
   },
 
-        {
-    title: "",
+          {
+    title: "Yani Neko",
     channel: "Anime",
-    category: "Film",
-    poster: "poster/anime14.jpg",
+    category: "Anime",
+    poster: "poster/yani neko.webp",
 
     episodes: [
-      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
-      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
-      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
-      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
-      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
-      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
-      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
-      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
-      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-154092-b1db5a675bdfc1d2.mp4" },
+      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "https://s3.animeverse.id/ro/5948-1783622536106.mp4" },
+      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "https://s3.animeverse.id/video/2026/07/episode-154212-d82f99f9156f255d.mp4" },
+      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "https://s3.animeverse.id/ro/98ee-1784834650779.mp4" },
+      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "https://s3.animeverse.id/ro/10d3-1785431888375.mp4" },
+      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "https://s3.animeverse.id/ro/65c7-1786118006349.mp4" },
+      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "https://s3.animeverse.id/ro/6a84-1786646353336.mp4" },
+      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "https://s3.animeverse.id/ro/35b9-1787301552954.mp4" },
+      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "https://s3.animeverse.id/ro/39aa-1788457689732.mp4" },
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "https://s3.animeverse.id/ro/593f-1789061234977.mp4" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "https://s3.animeverse.id/ro/d8ea-1789668727773.mp4" },
+      { title: "Episode 12", poster: "poster/anime12/episode-12.jpg", source: "https://s3.animeverse.id/ro/b383-1790334020392.mp4" }
     ]
   },
 
-      {
+          {
     title: "",
     channel: "Anime",
-    category: "Film",
-    poster: "poster/anime14.jpg",
+    category: "Anime",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -523,15 +516,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+          {
     title: "",
     channel: "Anime",
-    category: "Film",
-    poster: "poster/anime14.jpg",
+    category: "Anime",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -543,15 +540,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+            {
     title: "",
     channel: "Anime",
-    category: "Film",
-    poster: "poster/anime14.jpg",
+    category: "Anime",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -563,15 +564,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+            {
     title: "",
     channel: "Anime",
-    category: "Film",
-    poster: "poster/anime14.jpg",
+    category: "Anime",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -583,35 +588,30 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
-    title: "",
+    {
+    title: "Kimetsu no Yaiba: Infinity Castel Movie",
     channel: "Anime",
     category: "Film",
-    poster: "poster/anime14.jpg",
+    poster: "poster/kny-infinity-castle.webp",
 
     episodes: [
-      { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
-      { title: "Episode 2", poster: "poster/anime12/episode-02.jpg", source: "" },
-      { title: "Episode 3", poster: "poster/anime12/episode-03.jpg", source: "" },
-      { title: "Episode 4", poster: "poster/anime12/episode-04.jpg", source: "" },
-      { title: "Episode 5", poster: "poster/anime12/episode-05.jpg", source: "" },
-      { title: "Episode 6", poster: "poster/anime12/episode-06.jpg", source: "" },
-      { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
-      { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
-      { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 1(end)", poster: "poster/anime7/episode-01.jpg", source: "https://s3.animeverse.id/ro/c5d3-1768082833559.mp4" },
     ]
   },
 
-        {
+              {
     title: "",
     channel: "Anime",
     category: "Film",
-    poster: "poster/anime14.jpg",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -623,15 +623,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+                {
     title: "",
     channel: "Anime",
     category: "Film",
-    poster: "poster/anime14.jpg",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -643,15 +647,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+                {
     title: "",
     channel: "Anime",
     category: "Film",
-    poster: "poster/anime14.jpg",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -663,15 +671,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+                {
     title: "",
     channel: "Anime",
     category: "Film",
-    poster: "poster/anime14.jpg",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -683,15 +695,19 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 
-        {
+                {
     title: "",
     channel: "Anime",
     category: "Film",
-    poster: "poster/anime14.jpg",
+    poster: "poster/.jpg",
 
     episodes: [
       { title: "Episode 1", poster: "poster/anime12/episode-01.jpg", source: "" },
@@ -703,7 +719,11 @@ const animeVideos = [
       { title: "Episode 7", poster: "poster/anime12/episode-07.jpg", source: "" },
       { title: "Episode 8", poster: "poster/anime12/episode-08.jpg", source: "" },
       { title: "Episode 9", poster: "poster/anime12/episode-09.jpg", source: "" },
-      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" }
+      { title: "Episode 10", poster: "poster/anime12/episode-10.jpg", source: "" },
+      { title: "Episode 11", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 12", poster: "poster/anime12/episode-11.jpg", source: "" },
+      { title: "Episode 13", poster: "poster/anime12/episode-11.jpg", source: "" }
+      
     ]
   },
 ];
@@ -711,22 +731,6 @@ const animeVideos = [
 
 
 
-
-const galleryView = document.getElementById("galleryView");
-const watchView = document.getElementById("watchView");
-const grid = document.getElementById("videoGrid");
-const searchInput = document.getElementById("searchInput");
-const searchForm = document.getElementById("searchForm");
-const emptyState = document.getElementById("emptyState");
-const categoryNav = document.getElementById("categoryNav");
-const watchVideo = document.getElementById("watchVideo");
-const watchTitle = document.getElementById("watchTitle");
-const watchMeta = document.getElementById("watchMeta");
-const nextVideoList = document.getElementById("nextVideoList");
-const sidebar = document.getElementById("sidebar");
-const menuToggle = document.getElementById("menuToggle");
-const watchedLink = document.getElementById("watchedLink");
-const animeSideLink = document.querySelector(".side-link.selected");
 let activeCategory = "Anime";
 let viewingWatched = false;
 let currentAnime = null;
@@ -775,7 +779,12 @@ const markWatched = (anime) => {
 
 const readyVideos = () => animeVideos.filter((anime) => anime.title.trim());
 
+document.getElementById("videoGrid").innerHTML = Array.from({ length: 13 }, () => {
+  '<article class="skeleton-card" aria-hidden="true"><div class="skeleton-thumb"></div><div class="skeleton-info"><span class="skeleton-avatar"></span><div class="skeleton-copy"><span class="skeleton-line"></span><span class="skeleton-line short"></span></div></div></article>'
+}).join("");
+
 const renderEpisodes = (anime) => {
+  const nextVideoList = document.getElementById("nextVideoList");
   const episodes = anime.episodes.filter((episode) => episode.title.trim() && episode.source.trim());
   nextVideoList.replaceChildren(...episodes.map((episode) => {
     const item = document.createElement("button");
@@ -799,6 +808,11 @@ const renderEpisodes = (anime) => {
 };
 
 const showVideo = (episode, anime) => {
+  const galleryView = document.getElementById("galleryView");
+  const watchView = document.getElementById("watchView");
+  const watchVideo = document.getElementById("watchVideo");
+  const watchTitle = document.getElementById("watchTitle");
+  const watchMeta = document.getElementById("watchMeta");
   currentAnime = anime;
   currentEpisode = episode;
   galleryView.hidden = true;
@@ -815,7 +829,7 @@ const showVideo = (episode, anime) => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
-watchVideo.addEventListener("play", () => {
+document.getElementById("watchVideo").addEventListener("play", () => {
   if (currentAnime) markWatched(currentAnime);
 });
 
@@ -891,7 +905,10 @@ const createCard = (anime) => {
 };
 
 const renderGallery = () => {
-  const query = searchInput.value.slice(0, 200).trim().toLocaleLowerCase("id");
+  const searchInput = document.getElementById("searchInput");
+  const grid = document.getElementById("videoGrid");
+  const emptyState = document.getElementById("emptyState");
+  const query = searchInput.value.slice(0, 100).trim().toLocaleLowerCase("id");
   const filtered = readyVideos().filter((anime) => {
     const categoryMatch = viewingWatched || activeCategory === "Semua" || anime.category === activeCategory;
     const watchedMatch = !viewingWatched || watchedVideos.has(getWatchedKey(anime));
@@ -908,6 +925,9 @@ const renderGallery = () => {
 
 document.querySelectorAll("[data-category]").forEach((chip) => {
   chip.addEventListener("click", () => {
+    const categoryNav = document.getElementById("categoryNav");
+    const watchedLink = document.getElementById("watchedLink");
+    const animeSideLink = document.querySelector(".side-link.selected");
     viewingWatched = false;
     categoryNav.hidden = false;
     watchedLink.classList.remove("selected");
@@ -918,7 +938,13 @@ document.querySelectorAll("[data-category]").forEach((chip) => {
   });
 });
 
-watchedLink.addEventListener("click", (event) => {
+document.getElementById("watchedLink").addEventListener("click", (event) => {
+  const categoryNav = document.getElementById("categoryNav");
+  const watchedLink = document.getElementById("watchedLink");
+  const animeSideLink = document.querySelector(".side-link.selected");
+  const watchVideo = document.getElementById("watchVideo");
+  const watchView = document.getElementById("watchView");
+  const galleryView = document.getElementById("galleryView");
   event.preventDefault();
   viewingWatched = true;
   categoryNav.hidden = true;
@@ -932,23 +958,30 @@ watchedLink.addEventListener("click", (event) => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-searchInput.addEventListener("input", renderGallery);
-searchForm.addEventListener("submit", (event) => {
+document.getElementById("searchInput").addEventListener("input", renderGallery);
+document.getElementById("searchForm").addEventListener("submit", (event) => {
   event.preventDefault();
   renderGallery();
 });
 document.getElementById("backToGallery").addEventListener("click", () => {
+  const watchVideo = document.getElementById("watchVideo");
+  const watchView = document.getElementById("watchView");
+  const galleryView = document.getElementById("galleryView");
   watchVideo.pause();
   watchView.hidden = true;
   galleryView.hidden = false;
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-menuToggle.addEventListener("click", () => {
+document.getElementById("menuToggle").addEventListener("click", () => {
+  const sidebar = document.getElementById("sidebar");
+  const menuToggle = document.getElementById("menuToggle");
   const isOpen = sidebar.classList.toggle("open");
   menuToggle.setAttribute("aria-expanded", String(isOpen));
 });
 document.addEventListener("click", (event) => {
+  const sidebar = document.getElementById("sidebar");
+  const menuToggle = document.getElementById("menuToggle");
   if (window.matchMedia("(max-width: 760px)").matches && sidebar.classList.contains("open") &&
       !sidebar.contains(event.target) && !menuToggle.contains(event.target)) {
     sidebar.classList.remove("open");
@@ -957,3 +990,16 @@ document.addEventListener("click", (event) => {
 });
 
 window.setTimeout(renderGallery, 450);
+
+document.addEventListener("click", (event) => {
+    const vfx = document.createElement("vfx");
+
+    vfx.src = "vfx.webp";
+
+    vfx.style.left = event.clientX + "px";
+    vfx.style.top = event.clientY + "px";
+
+    vfx.style.transform = "translate(-50%, -50%)";
+
+    document.body.appendChild(vfx);
+});
