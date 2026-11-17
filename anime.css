@@ -34,6 +34,11 @@ body {
   color: var(--text);
 }
 
+body.light {
+  background: white;
+  color: whitesmoke;
+}
+
 button,
 input {
   font: inherit;
@@ -1134,5 +1139,31 @@ body {
     min-height: 100vh;
     background: #111;
     color: white;
+}
+
+.click-effect {
+    position: fixed;
+    pointer-events: none;
+    width: 80px;
+    height: 80px;
+    z-index: 999999999;
+    animation: clickEffect 0.8s ease-in-out forwards;
+}
+
+@keyframes clickEffect {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.3);
+    }
 }
 

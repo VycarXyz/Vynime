@@ -728,7 +728,12 @@ const animeVideos = [
   },
 ];
 
+const themebutton = document.getElementById("themebutton")
 
+themebutton.addEventListener("click", () => {
+  document.body.classList.toggle("light");
+      
+});
 
 
 let activeCategory = "Anime";
@@ -1002,4 +1007,23 @@ document.addEventListener("click", (event) => {
     vfx.style.transform = "translate(-50%, -50%)";
 
     document.body.appendChild(vfx);
+});
+
+document.addEventListener("click", function(event) {
+
+    const gambar = document.createElement("img");
+
+    gambar.src = "vfx.webp";
+
+    gambar.classList.add("click-effect");
+
+    gambar.style.left = event.clientX + "px";
+    gambar.style.top = event.clientY + "px";
+
+    document.body.appendChild(gambar);
+
+    setTimeout(function() {
+        gambar.remove();
+    }, 800);
+
 });
